@@ -10,7 +10,7 @@ import Frame from '../assets/04.png';
 const UpperComponent = ({ theme = 'dark-theme' }) => { 
   return (
     <>
-    <h1 className='title' style={{ position: 'absolute', top: 0, left: 0, fontFamily: 'sans-serif', fontSize: '24px', fontWeight: 'bold', color: '#333',margin: '20px' }}>Sports</h1>
+    <h1 className='title' style={{ position: 'absolute', top: 0, left: 0, fontFamily: 'sans-serif', fontSize: '24px', fontWeight: 'bold', color: '#333',marginLeft: '60px' }}>Sports</h1>
 
     <div className={`upcontent ${theme}`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative' ,margin: '50px'}}>
       <div className='players'>

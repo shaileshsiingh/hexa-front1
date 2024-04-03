@@ -110,11 +110,21 @@ li {
 }
 
 .button-container button {
+    
+
     background: #2C9CF0;
     border: none;
     color: #fff;
     border-radius: 3px;
     margin-left: 10px; /* Add margin between button and other content */
+    width: Hug (124px)px;
+height: Hug (46px)px;
+top: -594px;
+left: -1460px;
+padding: 10px 30px 10px 30px;
+gap: 5px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
 }
 
 

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-const Group1: FunctionComponent = () => {
+const Group1: FunctionComponent = (theme) => {
   return (
     <div className="w-full relative h-[918px] text-center text-[50px] text-white font-poppins">
       <div className="absolute top-[0px] left-[calc(50%_-_620px)] bg-black w-[1240px] h-[918px]" />
@@ -20,15 +20,17 @@ const Group1: FunctionComponent = () => {
               className="absolute top-[288px] left-[1049px] w-[36.7px] h-[49px] object-contain"
               alt=""
               src="/group-1717@2x.png"
+              style={{ cursor: 'pointer' }}
             />
-            <div className="absolute top-[288px] left-[0px] w-[36.7px] h-[49px]">
-              <div className="absolute top-[0px] left-[0px] box-border w-[36.7px] h-[49px] border-[1px] border-solid border-cornflowerblue" />
-              <img
-                className="absolute h-[39.18%] w-[29.97%] top-[30.41%] right-[35.97%] bottom-[30.41%] left-[34.06%] max-w-full overflow-hidden max-h-full object-contain"
-                alt=""
-                src="/vector.svg"
-              />
-            </div>
+           <div className="absolute top-[288px] left-[0px] w-[36.7px] h-[49px]" style={{ cursor: 'pointer' }}>
+  <div className="absolute top-[0px] left-[0px] box-border w-[36.7px] h-[49px] border-[1px] border-solid border-cornflowerblue" />
+  <img
+    className="absolute h-[39.18%] w-[29.97%] top-[30.41%] right-[35.97%] bottom-[30.41%] left-[34.06%] max-w-full overflow-hidden max-h-full object-contain"
+    alt=""
+    src="/vector.svg"
+  />
+</div>
+
             <div className="absolute top-[0px] left-[118px] w-[850px] h-[624px]">
               <div className="absolute top-[0px] left-[0px] [filter:drop-shadow(0px_10px_20px_rgba(0,_0,_0,_0.2))] w-[257px] h-[624px]">
                 <img
@@ -113,6 +115,7 @@ const Group1: FunctionComponent = () => {
                   className="absolute top-[0px] left-[0px] w-[257px] h-[624px] object-cover"
                   alt=""
                   src="/group-1975@2x.png"
+                  
                 />
                 <div className="absolute top-[15.9px] left-[15px] w-[226.1px] h-[597.9px]">
                   <img
